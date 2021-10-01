@@ -1,3 +1,4 @@
+// binary search program in js
 function binarySearch(sortedArray, key) {
   let start = 0;
   let end = sortedArray.length - 1;
