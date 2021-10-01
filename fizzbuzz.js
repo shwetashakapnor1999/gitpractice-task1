@@ -1,3 +1,4 @@
+//fizbuzz program in js
 function fizzBuzz(start, end) {
   for (let num = start; num <= end; num++) {
     if (num % 5 === 0 && num % 3 === 0) {
