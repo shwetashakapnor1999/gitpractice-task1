@@ -20,3 +20,6 @@ function binarySearch(sortedArray, key) {
   // key wasn't found
   return -1;
 }
+var sortedArray = [1, 2, 3, 4, 5, 7, 8, 9];
+console.log(binarySearch(sortedArray, 1));
+console.log(binarySearch(sortedArray, 5));
